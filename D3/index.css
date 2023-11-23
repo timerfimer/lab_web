@@ -1,0 +1,470 @@
+/* Стилі для елементів з класом .div */
+
+.div {
+  position: absolute; /* Встановлення абсолютної позиції */
+  top: 473px;
+  left: 23px;
+  font-size: 65px;
+  font-weight: 500;
+  display: inline-block;
+  width: 441px;
+  height: 208px;
+}
+/* Стилі для елементів з класом .frame-child */
+
+.frame-child {
+  position: absolute;
+  top: 104px;
+  left: 67px;
+  border-radius: 50%;
+  width: 339px;
+  height: 325px;
+  object-fit: cover;
+}
+/* Стилі для елементів з класами .div1 та .div2 */
+.div1,
+.div2 {
+  position: absolute; /* Встановлення абсолютної позиції */
+  top: 725px; /* Відступ від верхнього краю */
+  left: 116px; /* Відступ від лівого краю */
+}
+
+.div2 {
+  top: 1020px; /* Змінене положення елементу .div2 щодо верхнього краю */
+  left: 190px; /* Змінене положення елементу .div2 щодо лівого краю */
+}
+
+/* Стилі для елементів з тегом <p> */
+.p {
+  margin: 0; /* Встановлення зовнішнього відступу <p> на 0 */
+}
+
+/* Стилі для елементів з класами .applegmailcom-applecom та .b2-container */
+.applegmailcom-applecom,
+.b2-container {
+  position: absolute; /* Встановлення абсолютної позиції */
+  top: 825px; /* Відступ від верхнього краю */
+  left: 67px; /* Відступ від лівого краю */
+  font-size: var(--font-size-11xl); /* Розмір шрифту */
+  font-weight: 200; /* Товщина шрифту */
+  display: inline-block; /* Відображення як блок */
+  width: 355px; /* Ширина елементу */
+  height: 195px; /* Висота елементу */
+}
+
+.b2-container {
+  top: 1103px; /* Змінене положення елементу .b2-container щодо верхнього краю */
+}
+
+/* Стилі для елементів з класами .frame-inner та .frame-item */
+.frame-inner,
+.frame-item {
+  left: 0; /* Відступ зліва */
+  width: 487.5px; /* Ширина елементу */
+  height: 1px; /* Висота елементу */
+}
+
+.frame-item {
+  position: absolute; /* Встановлення абсолютної позиції */
+  top: 689.5px; /* Відступ від верхнього краю */
+}
+
+.frame-inner {
+  top: 1002.5px; /* Відступ від верхнього краю */
+}
+
+/* Стилі для елементів з класом .div3, .frame-inner та .parent */
+.div3,
+.frame-inner,
+.parent {
+  position: absolute; /* Встановлення абсолютної позиції */
+}
+
+.div3 {
+  top: 550px;
+  left: 41px;
+  font-size: var(--font-size-21xl); /* Розмір шрифту */
+  font-weight: 300; /* Товщина шрифту */
+  color: #555; /* Колір тексту */
+  display: inline-block; /* Відображення як блок */
+  width: 407px; /* Ширина елементу */
+}
+.parent {
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 486px;
+  height: 1291px;
+  overflow: hidden;
+}
+.div4 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  height: 57px;
+  flex-shrink: 0;
+}
+.wrapper {
+  position: absolute;
+  top: 63px;
+  left: 76px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 634px;
+  height: 83px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-brown);
+}
+.free-icon-graduation-hat-11994 {
+  position: absolute;
+  top: 45px;
+  left: 99px;
+  width: 97.1px;
+  height: 120px;
+  object-fit: cover;
+}
+.div5 {
+  position: absolute;
+  top: 165px;
+  left: 55px;
+  font-weight: 300;
+  display: inline-block;
+  width: 648px;
+  height: 55px;
+}
+.container,
+.div6 {
+  position: absolute;
+  left: 76px;
+  width: 634px;
+}
+.div6 {
+  top: 220px;
+  font-size: var(--font-size-11xl);
+  font-weight: 200;
+  text-align: left;
+  display: inline-block;
+  height: 55px;
+}
+.container {
+  top: 429px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 83px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-brown);
+}
+.free-icon-job-promotion-891583 {
+  position: absolute;
+  top: 429px;
+  left: 633px;
+  width: 77px;
+  height: 83px;
+  object-fit: cover;
+}
+.apple {
+  position: absolute;
+  top: 531px;
+  left: 76px;
+  display: inline-block;
+  width: 634px;
+  height: 55px;
+}
+.li {
+  margin-bottom: 0;
+}
+.ul {
+  margin: 0;
+  padding-left: var(--padding-21xl);
+}
+.ceo-container,
+.div8,
+.monobank {
+  position: absolute;
+  display: inline-block;
+  width: 634px;
+}
+.ceo-container {
+  top: 586px;
+  left: 73px;
+  font-size: var(--font-inherit);
+  font-weight: 200;
+  font-family: var(--font-inherit);
+  text-align: left;
+  height: 193px;
+}
+.div8,
+.monobank {
+  top: 853px;
+  left: 79px;
+  height: 55px;
+}
+/* Стилі для елементів з класом .div8 */
+.div8 {
+  top: 908px;
+  left: 76px;
+  font-size: var(
+    --font-inherit
+  ); /* Розмір шрифту успадковується від батьківського елемента */
+  font-weight: 200;
+  font-family: var(
+    --font-inherit
+  ); /* Сімейство шрифтів успадковується від батьківського елемента */
+  text-align: left;
+  height: 193px; /* Висота елементу */
+}
+
+/* Стилі для елементів .frame-group та .frame-parent */
+.frame-group,
+.frame-parent {
+  height: 1246px; /* Встановлення висоти для обох елементів */
+  overflow: hidden; /* Приховання зайвого вмісту, що виходить за межі контейнера */
+}
+
+.frame-group {
+  position: absolute; /* Встановлення абсолютної позиції */
+  top: 0;
+  left: 492px;
+  width: 742px;
+  text-align: center;
+  font-size: var(
+    --font-size-16xl
+  ); /* Розмір шрифту успадковується від батьківського елемента */
+}
+
+.frame-parent {
+  position: relative;
+  background-color: #ecd8cc;
+  width: 100%; /* Ширина, що займає 100% ширини батьківського елемента */
+  text-align: left;
+  font-size: var(
+    --font-size-26xl
+  ); /* Розмір шрифту успадковується від батьківського елемента */
+  color: var(--color-black);
+  font-family: var(--font-oswald);
+}
+/* Media-запит для екранів з шириною до 768px */
+
+@media screen and (max-width: 768px) {
+  .div {
+    position: absolute;
+    top: 473px;
+    left: 23px;
+    font-size: 65px;
+    font-weight: 500;
+    display: inline-block;
+    width: 441px;
+    height: 208px;
+  }
+  .frame-child {
+    position: absolute;
+    top: 104px;
+    left: 67px;
+    border-radius: 50%;
+    width: 339px;
+    height: 325px;
+    object-fit: cover;
+  }
+  .div1,
+  .div2 {
+    position: absolute;
+    top: 725px;
+    left: 116px;
+  }
+  .div2 {
+    top: 1020px;
+    left: 190px;
+  }
+  .p {
+    margin: 0;
+  }
+  .applegmailcom-applecom,
+  .b2-container {
+    position: absolute;
+    top: 825px;
+    left: 67px;
+    font-size: var(--font-size-11xl);
+    font-weight: 200;
+    display: inline-block;
+    width: 355px;
+    height: 195px;
+  }
+  .b2-container {
+    top: 1103px;
+  }
+  .frame-inner,
+  .frame-item {
+    left: 0;
+    width: 487.5px;
+    height: 1px;
+  }
+  .frame-item {
+    position: absolute;
+    top: 689.5px;
+  }
+  .frame-inner {
+    top: 1002.5px;
+  }
+  .div3,
+  .frame-inner,
+  .parent {
+    position: absolute;
+  }
+  .div3 {
+    top: 550px;
+    left: 41px;
+    font-size: var(--font-size-21xl);
+    font-weight: 300;
+    color: #555;
+    display: inline-block;
+    width: 407px;
+  }
+  .parent {
+    top: 0;
+    left: 0;
+    background-color: var(--color-white);
+    width: 486px;
+    height: 1291px;
+    overflow: hidden;
+  }
+  .div4 {
+    align-self: stretch;
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    height: 57px;
+    flex-shrink: 0;
+  }
+  .wrapper {
+    position: absolute;
+    top: 63px;
+    left: 76px;
+    background-color: var(--color-white);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 474px;
+    height: 83px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size-21xl);
+    color: var(--color-brown);
+  }
+  .div5,
+  .div6 {
+    position: absolute;
+    top: 165px;
+    left: 73px;
+    font-weight: 300;
+    display: inline-block;
+    width: 484px;
+    height: 100px;
+  }
+  .div6 {
+    top: 265px;
+    left: 88px;
+    font-size: var(--font-size-11xl);
+    font-weight: 200;
+    text-align: left;
+    width: 474px;
+    height: 99px;
+  }
+  .apple,
+  .container {
+    position: absolute;
+    left: 76px;
+  }
+  .container {
+    top: 340px;
+    background-color: var(--color-white);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 474px;
+    height: 83px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size-21xl);
+    color: var(--color-brown);
+  }
+  .apple {
+    top: 531px;
+    display: inline-block;
+    width: 486px;
+    height: 55px;
+  }
+  .li {
+    margin-bottom: 0;
+  }
+  .ul {
+    margin: 0;
+    padding-left: var(--padding-21xl);
+  }
+  .ceo-container,
+  .div8,
+  .monobank {
+    position: absolute;
+    display: inline-block;
+  }
+  .ceo-container {
+    top: 586px;
+    left: 73px;
+    font-size: var(--font-inherit);
+    font-weight: 200;
+    font-family: var(--font-inherit);
+    text-align: left;
+    width: 489px;
+    height: 193px;
+  }
+  .div8,
+  .monobank {
+    top: 853px;
+    left: 79px;
+    width: 483px;
+    height: 55px;
+  }
+  .div8 {
+    top: 908px;
+    left: 76px;
+    font-size: var(--font-inherit);
+    font-weight: 200;
+    font-family: var(--font-inherit);
+    text-align: left;
+    width: 486px;
+    height: 193px;
+  }
+  .frame-group {
+    position: absolute;
+    top: 1252px;
+    left: -67px;
+    width: 768px;
+    height: 1246px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-16xl);
+  }
+  .frame-parent {
+    position: relative;
+    background-color: #ecd8cc;
+    width: 100%;
+    height: 2407px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-26xl);
+    color: var(--color-black);
+    font-family: var(--font-oswald);
+  }
+}
